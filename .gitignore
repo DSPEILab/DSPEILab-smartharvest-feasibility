@@ -1,0 +1,36 @@
+# SmartHarvest generated artifacts (regenerable, large — do not commit)
+dataset_pyrender/
+dataset_*/
+*.npy
+gallery_*.json
+heldout_*.json
+*.faiss
+real_masks/
+previews/
+photos/
+parts/
+
+# Note: parts/ is ignored above, so parts/catalog.json and the source STLs
+# will NOT be committed. Remove the parts/ line if you want them in the repo.
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Model / framework caches
+.cache/
+*.pth
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
