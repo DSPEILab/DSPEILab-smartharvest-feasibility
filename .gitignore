@@ -34,3 +34,5 @@ env/
 Thumbs.db
 .vscode/
 .idea/
+
+/test.py
